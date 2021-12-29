@@ -1,0 +1,6 @@
+driver=oracle.jdbc.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:orcl
+username=scott
+password=tiger
+country=\uB300\uD55C\uBBFC\uAD6D
+language=\uD55C\uAE00
