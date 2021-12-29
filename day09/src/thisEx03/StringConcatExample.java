@@ -1,0 +1,18 @@
+package thisEx03;
+
+public class StringConcatExample {
+	public static void main(String[] args) {
+		
+		String str1 = "JDK" + 6.0;	// toString()
+		String str2 = str1 + "특징";
+		System.out.println(str2);
+
+		String str3 = "JDK" + (3 + 3.0);
+		String str4 = 3 + 3.0 + "JDK";
+		// String에서 toString()을 재정의(Overriding)해서 문자열이 출력됨.
+		System.out.println(str3.toString() + str3.length());
+		System.out.println(str4);
+		
+		
+	}
+}
